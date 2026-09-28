@@ -1,0 +1,19 @@
+{
+  "name": "neurodoc-ai-server",
+  "version": "1.0.0",
+  "description": "Backend RAG engine with semantic vector chunking, cosine retrieval, and contextual query synthesis",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/rag.test.js"
+  },
+  "keywords": ["rag", "vector-search", "semantic-search", "embeddings", "ai-knowledge-base"],
+  "author": "Shahar Yar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

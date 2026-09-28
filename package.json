@@ -1,0 +1,14 @@
+{
+  "name": "neurodoc-ai",
+  "version": "1.0.0",
+  "description": "Retrieval-Augmented Generation (RAG) Document Intelligence Engine & Semantic Vector Search",
+  "private": true,
+  "scripts": {
+    "test:server": "npm test --prefix server",
+    "build:client": "npm run build --prefix client",
+    "test": "npm run test:server && npm run build:client"
+  },
+  "keywords": ["rag", "ai", "vector-search", "embeddings", "semantic-search", "fullstack"],
+  "author": "Shahar Yar",
+  "license": "MIT"
+}
